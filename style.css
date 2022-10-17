@@ -1,0 +1,292 @@
+
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #2d4059;
+    padding: 10px;
+    cursor: pointer;
+}
+body{
+margin: 0;
+background-color: #d6e6f2;
+}
+body:hover{
+    background-color: #f5eee6;
+}
+
+#MyVideo{
+    width:100%;
+}
+.video{
+  display:flex;
+  justify-content:center;
+}
+video{
+  align-self:center;
+  width: 100%;
+}
+.wa{
+    font-size: 10px;
+    font-style: normal;
+    text-decoration:none;
+}
+.click:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+    padding: 30px;
+    border-radius: 40px;
+}
+.item{
+    color:white;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-family: 'Roboto', sans-serif;
+    animation: none;
+}
+.look:hover{
+    background-color:lightsalmon;
+}
+
+.plane{
+  display:flex;
+  justify-content: center;
+}
+.name{
+    margin-right: auto;
+}
+.about{
+    display:flex;
+}
+.goga{
+    flex:1;
+    display: flex;
+    justify-content: center;
+}
+.tuda{
+    display: flex;
+    justify-content: center;
+
+}
+.but{
+    width: 100%;
+    background-color: goldenrod;
+    padding: 10px;
+    border: none;
+}
+.right{
+    align-items:flex-end;
+}
+.quote{
+    display: flex;
+}
+.text{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
+    padding: 10px;
+    
+}
+.quo{
+    font-weight: bold;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+}
+.item:hover{
+    color:goldenrod;
+    font-weight: bold;
+}
+.heading{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: #112d4e;
+    font-size:30px;
+   
+}
+.heading:hover{
+    color: #07689f;
+}
+.branch{
+    display: flex;
+    justify-content: space-evenly;
+}
+.legal{
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding:30px;
+}
+.legal:hover{
+    background-color:goldenrod;
+    color:white;
+    
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+.btn{
+    display: flex;
+    text-decoration:none;
+    justify-content: center;
+}
+.cta{
+    background-color: #3f72af;
+    color:white;
+    text-transform: uppercase;
+    padding:20px;
+    font-size: 15px;
+    cursor:help;
+    flex:1;
+    width:100%;
+}
+.cta:hover{
+    background-color: #384259;
+}
+
+@media all and (max-width: 1400px){
+    .text{
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .item{
+        font-size: 18px;
+    }
+    .legal{
+        font-size: 30px;
+    }
+    img{
+        width: 300px;
+        align-self: center;
+    }
+    .harvey{
+        align-self: center;
+        width: 350px;
+    }
+    form{
+        width:auto;
+    }
+    .law{
+        flex-direction: column;
+    }
+    .branch{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .last{
+        font-size: 26px;
+    }
+    .label{
+        font-size: 22px;
+        font-style: italic;
+    }
+    .cta{
+        font-size: 25px;
+    }
+    button{
+        padding: 10px;
+    }
+    
+    }
+
+@media all and (max-width: 800px){
+.body{
+    background-color: rgb(160, 198, 221);
+}
+    .text{
+        font-weight: bold;
+        font-style: italic;
+}
+.item{
+    font-size: 15px;
+}
+.legal{
+    font-size: 25px;
+}
+img{
+    width: 300px;
+    align-self: center;
+}
+.harvey{
+    align-self: center;
+    width: 350px;
+}
+form{
+    width:auto;
+}
+.law{
+    flex-direction: column;
+}
+.branch{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.last{
+    font-size: 20px;
+}
+
+
+  .quote {
+      display: flex;
+      flex-direction: column;
+  }
+
+}
+@media all and (max-width: 500px){
+    nav{
+        width: 100%;
+
+    }
+    .tuda{
+       width: 100%;
+    }
+    .goga{
+        width: 100%;
+    }
+    .body:hover{
+        background-color: silver;
+    }
+    .text{
+        font-weight: bold;
+        font-style: italic;
+    }
+    .item{
+        font-size: 10px;
+    }
+    .legal{
+        font-size: 17px;
+    }
+    img{
+        width: 300px;
+        align-self: center;
+    }
+    .harvey{
+        align-self: center;
+        width: 350px;
+    }
+    form{
+        width:auto;
+    }
+    .law{
+        flex-direction: column;
+    }
+    .branch{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .last{
+        font-size: 20px;
+    }
+
+}
